@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte e cores base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  color: #2c2c2c;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #9B59FF;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Seções */
+section {
+  padding: 60px 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #9B59FF;
+}
+
+section p, section li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Links e botões */
+a {
+  color: #9B59FF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, input[type="submit"] {
+  background-color: #9B59FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #7b42cc;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Rodapé */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    padding: 40px 10px;
+  }
+}
+Commit new file
